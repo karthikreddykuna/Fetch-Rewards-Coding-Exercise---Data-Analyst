@@ -1,0 +1,20 @@
+Hello,
+
+Good Day.Hope you are doing well. 
+
+I'm a Data Analyst at Fetch Rewards, I got the JSON data of Receipts, Users, and Brands to perform preliminary analysis. I'm writing this email to get some clarification and let you know the data quality issues that need to be resolved before performing further actions on the data. 
+
+1. Missing data is the main concern. I can observe that important data like Brand Code, Top Brand, Barcode are missing. This data is really important to derive the decisions. I believe instead of having Null values, few techniques can be adapted to collect the data appropriately from the data source. 
+2. Duplicate user's data was observed in the User data file. Ideally, UserId needs to be unique to avoid misinterpretation. I believe that there is some issue with the user creation logic which needs to be fixed by the developer team as soon as possible. 
+3. The Date fields are in Unix data type. A standard date format can help in minimizing the date issues and effective data analysis. 
+4. Few receipts don't have Items mapped. Dropping or Collecting this type of data can be helpful in effective decision making. 
+5. There were missing values of BarCode in Brand data but available in receipt data. Mapping these can help in extracting more insights. 
+6. RewardsReceiptItemList data has a lot of missing values. Capturing these can help generate more insights related to the rewards. 
+
+In addition, few minor issues can be optimized by collecting the data effectively. I like to connect with you and your team, to have a discussion further on the issues addressed above and also like to discuss with the domain expert to have a better understanding of the data context. 
+
+Looking forward to your response with your availability. 
+
+Thanks and Regards,
+Karthikreddy Kuna
+

@@ -1,0 +1,9 @@
+Based on my observations while preprocessing the data here are the few Data Quality Issues in the Data provided.
+1. Data has a lot of null values. A lot of preprocessing needs to be done to fill these values or drop these values. 
+2. In User data there are 283 duplicate values, ideally User_Id needs to be distinct. 
+3. In Receipts and User Data 'date' columns are in UNIX timestamp format, which needs to be converted into standard DateTime format. 
+4. Barcodes in the brand's data are not unique. Data has duplicate values. 
+5. In Brand Data there are missing values for TopBrand and Brand code columns. This Data is important to have accurate information. 
+6. There were some barcodes that were not in the Brand file but available in receipt data. 
+7. RewardsReceiptItemList Data need to be extracted from Receipts data and there is a lot of missing values in the data. 
+8. RewardsReceiptItemList Data doesn't have a unique identifier. 
